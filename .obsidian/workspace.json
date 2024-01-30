@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "_notes/Public/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/test.md",
+                "file": "_notes/Public/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/test.md",
+                "file": "_notes/Public/Untitled 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/test.md"
+                "file": "_notes/Public/Untitled 1.md"
               }
             }
           },
@@ -182,13 +182,14 @@
   },
   "active": "03283cbc0f402d47",
   "lastOpenFiles": [
+    "_notes/Public/Untitled.md",
+    "_notes/Public/Untitled 2.md",
+    "_notes/Public/test.md",
+    "_notes/Public/Untitled 1.md",
+    "Untitled 3.md",
     "template/template.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.md",
     "template",
     "test notes/Welcome to the garden.md",
-    "_notes/Public/test.md",
     "test notes/Credits.md",
     "test notes",
     "test notes/Hidden Note.md",
@@ -217,7 +218,6 @@
     "X/PICTURES/Screenshot 2024-01-30 at 13.22.05.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.31.23.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.19.11.png",
-    "B/the space of auditory perception.md",
     "A",
     "B/A/!",
     "X/PICTURES/Screenshot 2024-01-28 at 19.29.26.png",
