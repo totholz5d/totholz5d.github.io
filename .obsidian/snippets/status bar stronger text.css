@@ -1,0 +1,14 @@
+
+.theme-dark {
+	--mytitlecolor: #fcfcfc;
+}
+
+
+.theme-light {
+	--mytitlecolor: #020202;
+}
+
+.status-bar-item {
+    color: var(--mytitlecolor);
+
+}

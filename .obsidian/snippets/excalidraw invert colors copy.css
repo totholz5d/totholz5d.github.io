@@ -1,0 +1,9 @@
+const elements = document.querySelectorAll('.excalidraw [stroke="#1e1e1e"], .excalidraw [fill="#1e1e1e"], .excalidraw [background-color="#1e1e1e"]');
+
+// Change the color of the elements to #ffffff
+
+elements.forEach((element) => {
+  element.style.stroke = '#ffffff';
+  element.style.fill = '#ffffff';
+  element.style.backgroundColor = '#ffffff';
+}

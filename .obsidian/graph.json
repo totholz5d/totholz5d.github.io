@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "path:A/!/",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#art/visual  ",
+      "color": {
+        "a": 1,
+        "rgb": 16751076
+      }
+    },
+    {
+      "query": "tag:#sound  ",
+      "color": {
+        "a": 1,
+        "rgb": 16762445
+      }
+    },
+    {
+      "query": "tag:#we  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#tech/pkc",
+      "color": {
+        "a": 1,
+        "rgb": 19711
+      }
+    },
+    {
+      "query": "tag:#spirit",
+      "color": {
+        "a": 1,
+        "rgb": 11403519
+      }
+    },
+    {
+      "query": "tag:#language OR tag:#mind  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 1.71459147135417,
+  "lineSizeMultiplier": 2.4791755888651,
+  "collapse-forces": false,
+  "centerStrength": 0.671549479166667,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 1.202109564711711,
+  "close": false
+}

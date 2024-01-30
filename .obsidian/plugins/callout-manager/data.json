@@ -1,0 +1,179 @@
+{
+  "callouts": {
+    "custom": [
+      "fire",
+      "body",
+      "mind",
+      "spirit",
+      "we",
+      "art",
+      "nature",
+      "idea",
+      "favorite",
+      "new",
+      "dream",
+      "ressource",
+      "inspiration"
+    ],
+    "settings": {
+      "fire": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "255, 162, 0"
+          }
+        }
+      ],
+      "body": [
+        {
+          "changes": {
+            "icon": "lucide-person-standing",
+            "color": "255, 148, 26"
+          }
+        }
+      ],
+      "mind": [
+        {
+          "changes": {
+            "icon": "lucide-brain-circuit",
+            "color": "71, 175, 255"
+          }
+        }
+      ],
+      "spirit": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dot-dashed",
+            "color": "172, 64, 212"
+          }
+        }
+      ],
+      "we": [
+        {
+          "changes": {
+            "icon": "lucide-share-2",
+            "color": "255, 97, 97"
+          }
+        }
+      ],
+      "art": [
+        {
+          "changes": {
+            "icon": "lucide-image"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 158, 247"
+          }
+        }
+      ],
+      "nature": [
+        {
+          "changes": {
+            "icon": "lucide-palmtree",
+            "color": "8, 181, 83"
+          }
+        }
+      ],
+      "idea": [
+        {
+          "changes": {
+            "icon": "lucide-lightbulb"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "71, 166, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "71, 194, 255"
+          }
+        }
+      ],
+      "favorite": [
+        {
+          "changes": {
+            "icon": "lucide-heart-crack",
+            "color": "229, 154, 229"
+          }
+        }
+      ],
+      "new": [
+        {
+          "changes": {
+            "icon": "lucide-stars",
+            "color": "255, 227, 128"
+          }
+        }
+      ],
+      "dream": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dashed"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "194, 143, 245"
+          }
+        }
+      ],
+      "ressource": [
+        {
+          "changes": {
+            "icon": "lucide-book",
+            "color": "80, 211, 209"
+          }
+        }
+      ],
+      "inspiration": [
+        {
+          "changes": {
+            "icon": "lucide-brain-circuit",
+            "color": "105, 121, 247"
+          }
+        }
+      ],
+      "attention": [
+        {
+          "changes": {
+            "color": "238, 99, 99"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

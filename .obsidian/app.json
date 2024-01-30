@@ -1,0 +1,20 @@
+{
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": false,
+  "spellcheck": true,
+  "attachmentFolderPath": "X/PICTURES",
+  "readableLineLength": true,
+  "trashOption": "system",
+  "propertiesInDocument": "visible",
+  "autoPairMarkdown": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showUnsupportedFiles": true
+}

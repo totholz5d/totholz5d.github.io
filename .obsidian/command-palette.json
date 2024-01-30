@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "obsidian-text-format:text-format-link-url2wiki",
+    "obsidian-text-format:text-format-remove-blank-line",
+    "obsidian-text-format:text-format-remove-spaces",
+    "obsidian-text-format:text-format-remove-wiki-link",
+    "properties:open-local"
+  ]
+}
