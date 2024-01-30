@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8993227128103812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03283cbc0f402d47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Public/Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bc003b88d381bfbd",
             "type": "leaf",
             "state": {
@@ -39,8 +15,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Untitled 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_notes/Public/Untitled 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,18 +152,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "03283cbc0f402d47",
+  "active": "bc003b88d381bfbd",
   "lastOpenFiles": [
-    "_notes/Public/Untitled.md",
-    "_notes/Public/Untitled 2.md",
+    "styles.scss",
+    "README.md",
+    "netlify.toml",
+    "Gemfile.lock",
+    "Gemfile",
+    "404.html",
+    "LICENSE",
+    "assets/image.jpg",
+    "assets/jazzyfrenchy.mp3",
+    "assets",
+    "_sass/_style.scss",
+    "_sass/_normalize.scss",
+    "_sass/_code.scss",
+    "_pages/index.md",
+    "_pages/about.md",
+    "_notes/animals/tigers.md",
+    "_notes/animals/cats.md",
+    "_notes/안녕하세요.md",
+    "_notes/your-first-note.md",
+    "_notes/move your body every day.md",
+    "_notes/consistency.md",
+    "_notes/accents.md",
+    "template/template.md",
     "_notes/Public/test.md",
     "_notes/Public/Untitled 1.md",
+    "_notes/Public/Untitled.md",
+    "_notes/Public/Untitled 2.md",
     "Untitled 3.md",
-    "template/template.md",
-    "template",
     "test notes/Welcome to the garden.md",
     "test notes/Credits.md",
-    "test notes",
     "test notes/Hidden Note.md",
     "test notes/Markdown Rendered.md",
     "X/INBOX/Jekyll Garden for obsidian.md",
@@ -199,17 +191,6 @@
     "B/totholz5d domain.md",
     "quartz (static site generator).md",
     "quarz (publishing tool).md",
-    "B/working with the garage door up.md",
-    "X/My website technical infrastructure.md",
-    "B/kepano publishing process.md",
-    "B/HYPER NOW 🔥.md",
-    "B/Frequency Splitter.md",
-    "B/A/!/frequency controlled feedback modulation.md",
-    "X/Excalidraw/frequency controlled feedback modulation.excalidraw.md",
-    "B/A/!/the setup we build with niklas.md",
-    "B/A/shape modded LFO.md",
-    "B/M4L devices ideas.md",
-    "B/wavetable (live).md",
     "X/PICTURES/Screenshot 2024-01-30 at 13.35.53.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.23.06.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.33.43.png",
@@ -218,16 +199,7 @@
     "X/PICTURES/Screenshot 2024-01-30 at 13.22.05.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.31.23.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.19.11.png",
-    "A",
-    "B/A/!",
     "X/PICTURES/Screenshot 2024-01-28 at 19.29.26.png",
-    "X/PICTURES/mapping the shape of a lfo.png",
-    "TO READ/53-BEIKO-001-2023-12-13.pdf",
-    "X/PICTURES/Screenshot 2024-01-16 at 02.56.29.png.sb-66a6694f-8iwI8J",
-    "X/PICTURES/GENWAV01.als",
-    "X/PICTURES/envelope modulation.mp4",
-    "X/PICTURES/WAVTABGEN00001.als",
-    "TO READ/Music_as_Mathematics_of_Senses.pdf",
     "B/strange creatures of the latent space.canvas",
     "X/une publication juste avec des screenshot.canvas",
     "B/Dealing with the Unknown.canvas",
