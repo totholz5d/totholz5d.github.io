@@ -1,6 +1,6 @@
 ---
-title: test
+title: 
 feed: show
 date: <% tp.file.creation_date() %>
-permalink: test
+permalink:
 ---

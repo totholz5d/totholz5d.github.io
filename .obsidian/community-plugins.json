@@ -30,5 +30,6 @@
   "callout-manager",
   "obsidian-image-toolkit",
   "sync-graph-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian"
 ]

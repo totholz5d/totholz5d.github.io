@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03283cbc0f402d47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "_notes/Public/test.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc003b88d381bfbd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,17 +176,23 @@
       "random-note:Open random note": true,
       "workspaces:Manage workspace layouts": true,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "advanced-random-note:Open random note modal": false
+      "advanced-random-note:Open random note modal": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "8993227128103812",
+  "active": "03283cbc0f402d47",
   "lastOpenFiles": [
-    "test notes/Credits.md",
+    "template/template.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "template",
+    "test notes/Welcome to the garden.md",
     "_notes/Public/test.md",
+    "test notes/Credits.md",
     "test notes",
     "test notes/Hidden Note.md",
     "test notes/Markdown Rendered.md",
-    "test notes/Welcome to the garden.md",
     "X/INBOX/Jekyll Garden for obsidian.md",
     "B/A/!/website relaunch.md",
     "B/totholz5d domain.md",
@@ -191,9 +218,6 @@
     "X/PICTURES/Screenshot 2024-01-30 at 13.31.23.png",
     "X/PICTURES/Screenshot 2024-01-30 at 13.19.11.png",
     "B/the space of auditory perception.md",
-    "B/BANDCAMP SHOPPING.md",
-    "B/A/euclidean rhythms in Orca.md",
-    "B/Euclidean rhythms examples.md",
     "A",
     "B/A/!",
     "X/PICTURES/Screenshot 2024-01-28 at 19.29.26.png",
@@ -204,7 +228,6 @@
     "X/PICTURES/envelope modulation.mp4",
     "X/PICTURES/WAVTABGEN00001.als",
     "TO READ/Music_as_Mathematics_of_Senses.pdf",
-    "TO READ/The_Knowledge_Ecology.pdf",
     "B/strange creatures of the latent space.canvas",
     "X/une publication juste avec des screenshot.canvas",
     "B/Dealing with the Unknown.canvas",
