@@ -1,6 +1,6 @@
 ---
 title: test
 feed: show
-date: <% tp.file.creation_date() %>
+date: 30-01-2024
 permalink: test
 ---
