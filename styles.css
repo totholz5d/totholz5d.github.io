@@ -1,5 +1,6 @@
 body {
 --background: white;
+--foreground: black;
   font-family: Outfit, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: var(--background);
+  color: var(--foreground);;
 
 }
 
@@ -31,7 +33,7 @@ body {
 }
 
 .refresh-button:hover {
-    color: black;
+    color: var(foreground);
 }
 
 
@@ -48,7 +50,7 @@ body {
     border-radius: 20px;
     border-style: solid;
     border: 1px;
-    border-color: white;
+    border-color: var(background);
     cursor: grab;
     user-select: none;
     width: auto;
@@ -62,7 +64,7 @@ body {
 }
 
 .card:hover {
-    border-color: black !important;
+    border-color: var(--foreground); !important;
     border-style: solid;
 }
 
@@ -80,25 +82,9 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
   --background: black !important;
-  color: white !important;
-}
-.card {
-    background: black;
-    border-color: black;
-}
-.card:hover {
-    border-color: white !important;
+  --foreground: white !important;
 }
 
-.refresh-button:hover {
-    color: white;
-}
-
-.refresh-button {
-  background-color: black;
-  color: grey;
-  font-size: 2em;
-}
 
 
 
