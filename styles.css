@@ -114,6 +114,14 @@ body {
         font-size: 24px !important;
     }
  
+.refresh-button {
+  font-size: 6em;
+}
+
+.card {
+    font-size: 5em;
+}
+
 
 }
 
