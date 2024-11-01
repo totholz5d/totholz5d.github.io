@@ -22,7 +22,7 @@ body {
 .refresh-button {
   margin-top: 1.5rem;
   padding: 0.5rem 1rem;
-  font-size: 3rem;
+  font-size: 5rem;
   background-color: white;
   color: grey;
   border: 2px;
@@ -111,10 +111,6 @@ body {
         grid-template-columns: repeat(1, 1fr) !important;
         background-color: green !important;
 
-    }
- 
-    .refresh-button {
-      font-size: 10em;
     }
 
 
