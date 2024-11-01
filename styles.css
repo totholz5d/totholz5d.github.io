@@ -26,8 +26,8 @@ body {
     margin-top: 1.5rem;
     padding: 0.5rem 1rem;
     font-size: 4rem;
-    color: grey;
-    background-color: var(--background);
+    color : grey;
+    background-color: var(--background) !important;
     border: 2px;
     border-radius: 4px;
     cursor: pointer;
@@ -103,10 +103,10 @@ body {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
         background-color: green !important;
+        width: 100%;
+        display: block;
 
     }
-
-
 
 }
 

@@ -1,7 +1,5 @@
-
-const wordList = [ "minimal",
+ const wordList = [ "minimal",
   "elegant",
-  "fast",
   "complexity",
   "slow",
   "bouncing",
@@ -10,7 +8,6 @@ const wordList = [ "minimal",
   "stretching",
   "melting",
   "shaking",
-  "swirling",
   "floating",
   "falling",
   "space",
@@ -30,15 +27,13 @@ const wordList = [ "minimal",
   "breath",
   "rotation",
   "interaction",
-  "concentration",
   "circulation",
-  "transformation",
   "mutation",
   "vibration",
   "microscopic",
   "elastic",
-  "heavy",
   "gigantic",
+  "jelly",
   "soft",
   "low",
   "open",
@@ -54,57 +49,133 @@ const wordList = [ "minimal",
   "tension",
   "messy",
   "wild",
-  "hard",
   "furry",
-  "fluffy",
   "stability",
   "inwards",
   "outwards",
   "delicate",
   "juicy",
   "wiggling",
-  "earth",
-  "high",
   "expansion",
   "touch",
   "rhythmic",
-  "connection",
   "random",
-  "intense",
-  "full",
   "sliding",
-  "fusion",
   "oscilation",
   "spiral",
+  "equilibrium",
   "circle",
   "triangle",
   "sphere",
-  "cube",
-  "alive",
-  "near",
-  "distance",
-  "balanced",
-  "iterativ",
+  "remote",
   "entangled",
-  "structure"
+  "structure",
+  "tingling", 
+  "pulsating", 
+  "rippling", 
+  "weightless", 
+  "sharp", 
+  "smooth", 
+  "rough", 
+  "magnetic", 
+  "sticky", 
+  "shadow", 
+  "echo", 
+  "fierce", 
+  "urgent", 
+  "layered", 
+  "suspended", 
+  "compressed", 
+  "folding", 
+  "continuous", 
+  "parallel", 
+  "intersecting", 
+  "impact", 
+  "saturated", 
+  "cascading", 
+  "grainy", 
+  "porous", 
+  "diffusing", 
+  "viscous",
+  "almost",
+  "nearby",
+  "narrow",
+  "texture"
 ];
 
 function getRandomWords(list, count) {
-  const shuffledList = list.slice().sort(() => Math.random() - 0.5);
-  return shuffledList.slice(0, count);
+
+    
+    // Make a copy to avoid modifying original array
+    const array = [...list];
+    
+    // Fisher-Yates shuffle, but only up to count elements we need
+    for (let i = 0; i < count; i++) {
+        const j = i + Math.floor(Math.random() * (array.length - i));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    
+    return array.slice(0, count);
 }
 
-function displayWords() {
-  const wordElements = document.querySelectorAll('.word');
-  const randomWords = getRandomWords(wordList, 3);
-  wordElements.forEach((wordElement, index) => {
-    wordElement.textContent = randomWords[index];
-  });
-}
+        function createCard(word) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.textContent = word;
+            card.draggable = true;
+            
+            card.addEventListener('dragstart', (e) => {
+                card.classList.add('dragging');
+            });
+            
+            card.addEventListener('dragend', (e) => {
+                card.classList.remove('dragging');
+            });
+            
+            return card;
+        }
 
-// Call the displayWords function when the page loads
-window.addEventListener('DOMContentLoaded', displayWords);
+        function handleDragOver(e) {
+            e.preventDefault();
+            const container = document.getElementById('cardsContainer');
+            const draggingCard = container.querySelector('.dragging');
+            const cards = [...container.querySelectorAll('.card:not(.dragging)')];
+            
+            const afterCard = cards.reduce((closest, child) => {
+                const box = child.getBoundingClientRect();
+                const offset = e.clientX - (box.left + box.width / 2);
+                
+                if (offset < 0 && offset > closest.offset) {
+                    return { offset, element: child };
+                } else {
+                    return closest;
+                }
+            }, { offset: Number.NEGATIVE_INFINITY }).element;
 
-// Add click event listener to the refresh button
-const refreshButton = document.querySelector('.refresh-button');
-refreshButton.addEventListener('click', displayWords);
+            if (afterCard) {
+                container.insertBefore(draggingCard, afterCard);
+            } else {
+                container.appendChild(draggingCard);
+            }
+        }
+
+        function displayWords() {
+            const container = document.getElementById('cardsContainer');
+            container.innerHTML = '';
+            
+            const words = getRandomWords(wordList, (Math.floor(Math.random() * 2) + 2));
+            words.forEach(word => {
+                container.appendChild(createCard(word));
+            });
+        }
+
+        function refreshWords() {
+            displayWords();
+        }
+
+        // Initialize drag and drop handling
+        const container = document.getElementById('cardsContainer');
+        container.addEventListener('dragover', handleDragOver);
+
+        // Display initial words
+        displayWords();
