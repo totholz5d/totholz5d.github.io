@@ -40,15 +40,18 @@ body {
 
 .cards-container {
 /*    display: flex;*/
-    display: table;
-    gap: 20px;
+/*    gap: 20px;*/
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+
+    clear: both;
+    display: table;
+    text-align:center;
 }
 
 .card {
-    padding: 20px;
+/*    padding: 20px;*/
     border-radius: 20px;
     border-style: solid;
     border: 1px;
@@ -74,6 +77,7 @@ body {
 .card:hover {
     border-color: var(--foreground); !important;
     border-style: solid;
+
 }
 
 .card:active {
@@ -99,10 +103,6 @@ body {
 
 @media screen and (orientation:portrait) {
 
-     body {
-      --background: pink !important;
-      grid-template-columns: repeat(1, 1fr) !important;
-    }   
 
     .cards {
         width: 100%;
