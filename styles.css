@@ -112,6 +112,11 @@ body {
         text-align:center;
     }
 
+    .card.dragging {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+
 
     .refresh-button {
         color : var(--foreground) !important;;
