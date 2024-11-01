@@ -16,7 +16,7 @@ body {
 
 
 .word-container {
-    font-size: 3rem;
+/*    font-size: 3rem;*/
     font-weight: bold;
     padding: 2rem;
 }
@@ -45,8 +45,6 @@ body {
     justify-content: center;
     margin-bottom: 20px;
 }
-
-
 
 
 
@@ -102,7 +100,7 @@ body {
     .cards {
         width: 100% !important;
         display: block;
-        font-size: 15vw !important;
+        font-size: 30px !important;
 
     }
 
@@ -110,6 +108,7 @@ body {
         clear: both;
         display: table;
         text-align:center;
+        width: 100%;
     }
 
     .card.dragging {

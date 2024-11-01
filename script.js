@@ -89,7 +89,6 @@
   "folding", 
   "continuous", 
   "parallel", 
-  "intersecting", 
   "impact", 
   "saturated", 
   "cascading", 
