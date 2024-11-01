@@ -27,6 +27,7 @@ body {
   padding: 0.5rem 1rem;
   font-size: 4rem;
   color: grey;
+  background-color: var(background);
   border: 2px;
   border-radius: 4px;
   cursor: pointer;
@@ -80,12 +81,18 @@ body {
 
 /* dark mode, change this to text_color and back color */
 @media (prefers-color-scheme: dark) {
-  body {
-  --background: black !important;
-  --foreground: white !important;
+    body {
+      --background: black !important;
+      --foreground: white !important;
+    }
 }
 
 
+@media screen and (orientation:portrait) {
+     body {
+      --background: pink !important;
+    }   
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
