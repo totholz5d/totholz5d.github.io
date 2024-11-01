@@ -107,7 +107,7 @@ body {
 
     .card {
         display: block;
-        font-size: 8vh !important;
+        font-size: 7vh !important;
         text-align: center;
 
     }
@@ -116,7 +116,7 @@ body {
         clear: both;
         display: table;
         text-align: center;
-        width: 100%;
+        width: 900%;
     }
 
     .button-container {
