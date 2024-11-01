@@ -123,6 +123,17 @@ function getRandomWords(list, count) {
             card.textContent = word;
             card.draggable = true;
             
+ 
+            card.addEventListener('click', () => {
+                // Get a new random word from the list, excluding the current word
+                const newWord = getRandomWords(
+                    wordList.filter(w => w !== card.textContent), 
+                    1
+                )[0];
+                card.textContent = newWord;
+            });
+
+
             card.addEventListener('dragstart', (e) => {
                 card.classList.add('dragging');
             });
