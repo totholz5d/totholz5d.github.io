@@ -100,9 +100,9 @@ body {
 @media screen and (orientation:portrait) {
 
     .cards {
-        width: 100%;
+        width: 100% !important;
         display: block;
-        font-size: 10vw !important;
+        font-size: 15vw !important;
 
     }
 
