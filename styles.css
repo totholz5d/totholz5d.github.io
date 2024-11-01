@@ -24,7 +24,7 @@ body {
 .refresh-button {
     margin-top: 1.5rem;
     padding: 0.5rem 1rem;
-    font-size: 4rem;
+    font-size: 9vh;
     color : grey;
     background-color: var(--background) !important;
     border: 2px;
@@ -36,13 +36,22 @@ body {
   color: var(--foreground);
 }
 
+.button-container {
+  position: fixed;
+  left: 0;
+  bottom: 15vh;
+  width: 100%;
+  text-align: center;
+}
+
 
 .cards-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 17vh;
+
 }
 
 
@@ -98,7 +107,7 @@ body {
 
     .card {
         display: block;
-        font-size: 10vw !important;
+        font-size: 10vh !important;
         text-align: center;
 
     }
