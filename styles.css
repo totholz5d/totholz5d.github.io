@@ -1,4 +1,5 @@
 body {
+--background: white;
   font-family: Outfit, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -7,7 +8,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: var(--background);
+
 }
 
 
@@ -15,7 +17,6 @@ body {
   font-size: 3rem;
   font-weight: bold;
   padding: 2rem;
-  background-color: white;
 }
 
 
@@ -23,7 +24,6 @@ body {
   margin-top: 1.5rem;
   padding: 0.5rem 1rem;
   font-size: 4rem;
-  background-color: white;
   color: grey;
   border: 2px;
   border-radius: 4px;
@@ -44,7 +44,6 @@ body {
 }
 
 .card {
-    background: white;
     padding: 20px;
     border-radius: 20px;
     border-style: solid;
@@ -80,7 +79,7 @@ body {
 /* dark mode, change this to text_color and back color */
 @media (prefers-color-scheme: dark) {
   body {
-  background-color: black !important;
+  --background: black !important;
   color: white !important;
 }
 .card {
