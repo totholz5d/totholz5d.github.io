@@ -88,15 +88,28 @@ body {
 }
 
 
+/* portrait devices  */
+
 @media screen and (orientation:portrait) {
+
      body {
       --background: pink !important;
       grid-template-columns: repeat(1, 1fr) !important;
     }   
+
+    .cards {
+        width: 100%;
+        display: block;
+
+    }
+
+    .refresh-button {
+        color : var(--foreground) !important;;
+    }
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (max-width: 900px) {
 
     .cards {
@@ -105,12 +118,9 @@ body {
         background-color: green !important;
         width: 100%;
         display: block;
-
     }
 
-    .refresh-button {
-        color : var(--foreground) !important;;
-}
+
 
 }
 
