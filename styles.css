@@ -27,14 +27,14 @@ body {
     padding: 0.5rem 1rem;
     font-size: 4rem;
     color: grey;
-    background-color: var(background);
+    background-color: var(--background);
     border: 2px;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .refresh-button:hover {
-  color: var(foreground);
+  color: var(--foreground);
 }
 
 
@@ -51,7 +51,7 @@ body {
     border-radius: 20px;
     border-style: solid;
     border: 1px;
-    border-color: var(background);
+    border-color: var(--background);
     cursor: grab;
     user-select: none;
     width: auto;
