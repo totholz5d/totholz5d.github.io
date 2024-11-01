@@ -102,7 +102,7 @@ body {
     .cards {
         width: 100%;
         display: block;
-        font-size: 10vw;
+        font-size: 10vw !important;
 
     }
 
