@@ -1,8 +1,0 @@
-{
-  "snapToObjects": false,
-  "snapToGrid": false,
-  "defaultWheelBehavior": "pan",
-  "defaultModDragBehavior": "card",
-  "zoomBreakpoint": 0.75,
-  "cardLabelVisibility": "never"
-}
